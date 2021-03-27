@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'DM Mono', monospace;
+}
+body{
+    background-color:rgb(107, 154, 214);
+}
+#header h3{
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding:15px;
+    margin-bottom:10px;
+    font-size:30px;
+}
+#scoreboard{
+    border: 5px solid white;
+    width:300px;
+    height:150px;
+    margin: 20px auto;
+    border-radius: 4px;
+    font-size:50px;
+    position:relative;
+    text-align: center;
+    align-content: center;
+}
+.badge{
+    background-color:rgb(216, 115, 115);
+    color:white;
+    font-size:22px;
+    padding:10px;
+    text-align: center;
+}
+#userLabel{
+    position: absolute;
+    top:40px;
+    left:-30px;
+}
+#compLabel{
+    position: absolute;
+    top:40px;
+    right:-30px;
+}
+#score{
+    position: absolute;
+    top:35px;
+    left:100px;
+}
+#result{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.choice{
+    border: 3px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:rgb(216, 115, 115);
+    padding:20px;
+    margin: 20px;
+    align-items: center;
+}
+#message{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.choice:hover{
+    background-color:rgb(214, 77, 77);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.green-glow{
+    border: 3px solid rgb(74, 233, 74);
+    box-shadow: 3px 3px 10px rgb(2, 129, 2)
+}
+.red-glow{
+    border: 3px solid rgb(255, 21, 21);
+    box-shadow: 3px 3px 10px rgb(161, 10, 10)
+}
+.gray-glow{
+    border: 3px solid white;
+    box-shadow: 3px 3px 10px rgb(95, 90, 90);
+}
